@@ -11,6 +11,8 @@ KH5068CEM Platforms and Operating Systems - Coursework 1
 <h2>Process Control Block (PCB) Implementation</h2>
 This C program is an implementation of the Process Control Block (PCB) data structure  and a FIFO (First In First Out) queue in a simple operating system. The PCB is used to store information about each process, such as its ID, state, name, priority, arrival time, and burst time. The FIFO queue is used to store the processes in the order in which they arrive.
 
+<hr>
+
 <h3>Stored Information in the PCB</h3>
 
 <b>process_id:</b> An integer representing the ID of the process. <br>
@@ -21,3 +23,4 @@ This C program is an implementation of the Process Control Block (PCB) data stru
 <b>arrival_time:</b> An integer representing the time at which the process arrives. <br>
 <b>next_pcb:</b> A pointer to the next PCB in the queue. <br>
 
+<hr>
